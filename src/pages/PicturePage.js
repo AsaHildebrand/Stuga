@@ -1,3 +1,5 @@
+import Background from "../components/Background"
+
 import house from "../images/house.png"
 
 const PicturePage = () => {
@@ -5,7 +7,7 @@ const PicturePage = () => {
   return (
     <div className="picturepage-container">
       <div className="heading-container">
-        <h1>Galleri</h1>
+        <Background image={child} headText={"Galleri"}/>
       </div>
         <div className="album-container">
           <img className="album-image" src={house} alt="house"></img>
